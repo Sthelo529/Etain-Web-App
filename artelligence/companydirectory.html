@@ -54,14 +54,17 @@
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="./about.html">About</a>
-                        </li> -->
+                        </l-i> -->
                         <li class="nav-item">
                             <a class="nav-link" href="./service.html">AI Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./projects.html">Events & Resources</a>
                         </li>
-                        <li class="nav-space nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./companydirectory.html">Company Directory</a>
+                        </li>
+                        <!-- <li class="nav-space nav-item active dropdown">
                             <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false"> SA AI Company Directory </a>
                             <div class="dropdown-menu drop-down-content">
@@ -74,12 +77,12 @@
                                     </li>
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
                         <!-- <li class="nav-space nav-item">
                             <a class="nav-link" href="./contact.html">Contact us</a>
                         </li> -->
-                        <li class="nav-item active">
-                            <a class="nav-link lets_talk" href="./contact.html">Let's Talk<i class="circle fa-regular fa-angle-right"></i></a>
+                        <li class="nav-item">
+                            <a class="nav-link lets_talk" href="./companydirectory.html">Let's Talk<i class="circle fa-regular fa-angle-right"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -94,13 +97,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12 col-12">
-                    <div class="banner_content" data-aos="fade-right">
-                        <h1 class="text-white">SA AI Company Directory</h1>
-                        <p class="text-white">Central hub for ecosystem connections</p>
-                        <div class="banner-button">
+                    <div class="banner_content">
+                    <h1 class="text-white">SA AI Company Directory</h1>
+                    <p class="text-white">Central hub for ecosystem connections</p>
+                    <div class="banner-button">
                         <a class="lets_talk text-decoration-none" href="./about.html">About Us<i class="circle fa-regular fa-angle-right"></i></a>
                         <a class="lets_talk text-decoration-none" href="./contact.html">Contact Us<i class="circle fa-regular fa-angle-right"></i></a>   
-                    </div>  
+                    </div> 
                     </div>
                 </div> 
                 <div class="col-lg-5 col-md-6 col-sm-12 col-12">
@@ -121,28 +124,32 @@
 <section class="faq-section">
     <div class="container">
         <!-- <h5>SA-KZN</h5> -->
-        <h2>AI Company Profiles</h2>
+        <h2 style="text-align: center;">AI Company Profiles</h2>
+        <br>
+        <div class="search-box" style="text-align:end; margin-bottom:20px;">
+        <input type="text" id="searchInput" placeholder="Search by name, sector, or service..." 
+           style="width:40%; padding:10px; border:1px solid #ccc; border-radius:8px;">
+        </div>
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="faq_content" data-aos="fade-right">
-                    
+                <div class="faq_content" data-aos="fade-right">                   
                     <div class="faq">
                         <div class="row">
                             <div class="col-12">
                                 <div class="accordian-section-inner position-relative">
                                     <div class="accordian-inner">
-                                        <div id="accordion1">
+                                        <div id="accordion1-1">
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingOne">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                        <h4>Warten Weg</h4>
+                                                        <h4 class="name">Warten Weg</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                                     <div class="card-body">
-                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0" ><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0">  <b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a> </p>
                                                     </div>
@@ -151,14 +158,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingTwo">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                        <h4>KZN AI Solutions</h4>
+                                                        <h4 class="name">KZN AI Solutions</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a> </p>
                                                     </div>
@@ -167,14 +174,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingThree">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                        <h4>Superwise Solutions</h4>
+                                                        <h4 class="name">Superwise Solutions</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a> </p>
                                                     </div>
@@ -183,14 +190,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingFour">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                        <h4>2cana Solutions</h4>
+                                                        <h4 class="name">2cana Solutions</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a> </p>
                                                     </div>
@@ -199,14 +206,14 @@
                                             <div class="accordion-card faq-mb">
                                                 <div class="card-header" id="headingFive">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                        <h4>Intermediate Data Systems</h4>
+                                                        <h4 class="name">Intermediate Data Systems</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -229,18 +236,18 @@
                             <div class="col-12">
                                 <div class="accordian-section-inner position-relative">
                                     <div class="accordian-inner">
-                                        <div id="accordion1">
+                                        <div id="accordion1-2">
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingSix">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                        <h4>Autoflow AI</h4>
+                                                        <h4 class="name">Autoflow AI</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -249,14 +256,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingSeven">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                        <h4>Dzuwa Enterprises (PTY) LTD</h4>
+                                                        <h4 class="name">Dzuwa Enterprises (PTY) LTD</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sSector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -265,14 +272,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingEight">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                        <h4>ISU Technologies</h4>
+                                                        <h4 class="name">ISU Technologies</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Mobile designing</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -281,14 +288,14 @@
                                             <div class="accordion-card">
                                                 <div class="card-header" id="headingNine">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                        <h4>Hikma Solutions</h4>
+                                                        <h4 class="name">Hikma Solutions</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Machine learning</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -297,14 +304,14 @@
                                             <div class="accordion-card faq-mb">
                                                 <div class="card-header" id="headingTen">
                                                     <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                        <h4>Hypergrid Innovation</h4>
+                                                        <h4 class="name">Hypergrid Innovation</h4>
                                                     </a>
                                                 </div>
                                                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen">
                                                     <div class="card-body">
                                                         <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
-                                                        <p class="text-size-18 text-left mb-0"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
                                                         <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
                                                     </div>
@@ -317,18 +324,119 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="faq_content" data-aos="fade-right">
+                    <!-- <h5>faq,s</h5> -->
+                    <!-- <h2>Frequently Asked Questions</h2> -->
+                    <div class="faq">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="accordian-section-inner position-relative">
+                                    <div class="accordian-inner">
+                                        <div id="accordion2-1">
+                                            <div class="accordion-card">
+                                                <div class="card-header" id="headingSix">
+                                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                        <h4 class="name">Autoflow AI</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
+                                                    <div class="card-body">
+                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-card">
+                                                <div class="card-header" id="headingSeven">
+                                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                        <h4 class="name">Dzuwa Enterprises (PTY) LTD</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven">
+                                                    <div class="card-body">
+                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sSector"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-card">
+                                                <div class="card-header" id="headingEight">
+                                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                        <h4 class="name">ISU Technologies</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight">
+                                                    <div class="card-body">
+                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Mobile designing</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-card">
+                                                <div class="card-header" id="headingNine">
+                                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                        <h4 class="name">Hikma Solutions</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine">
+                                                    <div class="card-body">
+                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Machine learning</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-card faq-mb">
+                                                <div class="card-header" id="headingTen">
+                                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                        <h4 class="name">Hypergrid Innovation</h4>
+                                                    </a>
+                                                </div>
+                                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen">
+                                                    <div class="card-body">
+                                                        <p class="text-size-18 text-left mb-0"><b>Description:</b>  Exceptional AI company from South Africa</p>
+                                                        <p class="text-size-18 text-left mb-0 service"><b>Services:</b> Graphic Designer, Web designing, Tutor</p>
+                                                        <p class="text-size-18 text-left mb-0 sector"><b>Sector:</b> Graphic Designer</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Contact:</b> +2773 182 2346</p>
+                                                        <p class="text-size-18 text-left mb-0"><b>Website:</b> <a href="https://wartenweg.com/creative-process-behind-warten-weg/" target="_blank" rel="noopener noreferrer" style="color:#2be0f7 ;">https://wartenweg.com/creative-process-behind-warten-weg/ </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                         
         </div>
+        
+        <div class="pagination" id="pagination"></div>
     </div>
 </section>
-
 
 <div class="contact_map_section">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.3329737833114!2d144.96011341590386!3d-37.80566904135444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2s!4v1669200882885!5m2!1sen!2s"
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.3329737833114!2d144.96011341590386!3d-37.80566904135444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2s!4v1669200882885!5m2!1sen!2s"
             width="1920" height="556" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VqA4QmZYopx3LsMFdGuhb0Elo7tTJIo&ehbc=2E312F" width="1920" height="556" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 </div>
@@ -437,5 +545,71 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/animation_links.js"></script>
 <script src="assets/js/animation.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const cardsPerPage = 10; // show 10 per page
+    const allCards = document.querySelectorAll(".accordion-card");
+    const pagination = document.getElementById("pagination");
+    const totalPages = Math.ceil(allCards.length / cardsPerPage);
+    const searchInput = document.getElementById("searchInput");
+    let currentPage = 1;
+
+    function showPage(page) {
+        currentPage = page;
+
+        // Hide all cards
+        allCards.forEach(card => card.style.display = "none");
+
+        // Show only cards for this page
+        let start = (page - 1) * cardsPerPage;
+        let end = start + cardsPerPage;
+        for (let i = start; i < end && i < allCards.length; i++) {
+            allCards[i].style.display = "block";
+        }
+
+        // Update pagination active button
+        [...pagination.children].forEach((btn, idx) => {
+            btn.classList.toggle("active", idx + 1 === page);
+        });
+
+        // Run filter again so search applies to this page only
+        filterCards();
+    }
+
+    // Build pagination buttons
+    for (let i = 1; i <= totalPages; i++) {
+        let btn = document.createElement("button");
+        btn.innerText = i;
+        btn.addEventListener("click", () => showPage(i));
+        pagination.appendChild(btn);
+    }
+
+    // Search filter (applies only on current page)
+    function filterCards() {
+        const query = searchInput.value.toLowerCase();
+        let start = (currentPage - 1) * cardsPerPage;
+        let end = start + cardsPerPage;
+
+        for (let i = start; i < end && i < allCards.length; i++) {
+            let card = allCards[i];
+            const name = card.querySelector(".name")?.innerText.toLowerCase() || "";
+            const sector = card.querySelector(".sector")?.innerText.toLowerCase() || "";
+            const service = card.querySelector(".service")?.innerText.toLowerCase() || "";
+
+            if (name.includes(query) || sector.includes(query) || service.includes(query)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        }
+    }
+
+    searchInput.addEventListener("input", filterCards);
+
+    // Show first page by default
+    showPage(1);
+});
+</script>
 </body>
 </html>
